@@ -127,7 +127,7 @@ In this section, you'll take the information provided from AAD above and enter t
 1. Enter the Public Certificate. Please open the base64 certificate that you downloaded above and paste the text contents of that file into this dialog.
 1. Click on **Test SAML configuration**. This will open up a dialog for you to log in with your Azure AD credentials to validate that SAML SSO is configured correctly. Log in with your AAD credentials. you will receive a message **Passed: Successfully authenticated your SAML SSO identity** upon successful validation.
 1. Click **Save** to persist these settings.
-1. Please save (download, print, or copy) the recovery codes in a secure place.
+1. Please save (download, print, or copy) the recovery codes in a secure place. THESE CODES WILL BE THE ONLY OPTION TO LOG BACK INTO YOUR EMU INSTANCE AS ADMIN TO TROUBLESHOOT ANY ISSUES WITH AZUREAD CONNECTION.
 1. Click on **Enable SAML authentication**.
 1. At this point, only accounts with SSO are able to log into your Enterprise. Follow the instructions in the document below on provisioning in order to provision accounts backed by SSO.
 
